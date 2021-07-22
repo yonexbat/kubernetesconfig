@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    creator: adhoctestingenvironments
+    uptime: "0"
+  name: testwzei
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: testwzei
+  type: ClusterIP
