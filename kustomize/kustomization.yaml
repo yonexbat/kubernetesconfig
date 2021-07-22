@@ -1,0 +1,4 @@
+resources:
+- testwzei-configmap.yaml
+- testwzei-deployment.yaml
+- testwzei-service.yaml
